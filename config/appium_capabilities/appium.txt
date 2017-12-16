@@ -1,0 +1,5 @@
+[caps]
+platformName = "Android"
+deviceName = "Standard Android"
+autoLaunch = false
+noReset = true

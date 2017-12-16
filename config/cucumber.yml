@@ -1,0 +1,18 @@
+# Profiles based on api level
+api25: --tags @all,@25 --tags ~@ignore
+api24: --tags @all,@24 --tags ~@ignore
+api23: --tags @all,@23 --tags ~@ignore
+api22: --tags @all,@22 --tags ~@ignore
+api21: --tags @all,@21 --tags ~@ignore
+api19: --tags @all,@below21 --tags ~@ignore
+api18: --tags @all,@below21 --tags ~@ignore
+api17: --tags @all,@below21 --tags ~@ignore
+
+api25_smoke: --tags @all,@25,@smoke --tags ~@ignore
+api24_smoke: --tags @all,@24,@smoke --tags ~@ignore
+api23_smoke: --tags @all,@23,@smoke --tags ~@ignore
+api22_smoke: --tags @all,@22,@smoke --tags ~@ignore
+api21_smoke: --tags @all,@21,@smoke --tags ~@ignore
+api19_smoke: --tags @all,@below21,@smoke --tags ~@ignore
+api18_smoke: --tags @all,@below21,@smoke --tags ~@ignore
+api17_smoke: --tags @all,@below21,@smoke --tags ~@ignore
